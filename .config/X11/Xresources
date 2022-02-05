@@ -34,9 +34,14 @@ dwm.selbgcolor:             BLUE
 dwm.selbordercolor:         BLUE
 dwm.selfgcolor:             BASE2
 
+! dmenu
+!dmenu.font:                 monospace
+dmenu.background:           BASE03
+dmenu.foreground:           BASE0
+
 ! st
 st.alpha:                   0.90
-!st.font:                   mono:size=12
+!st.font:                    mono:size=12
 st.background:              BASE03
 st.foreground:              BASE0
 st.fading:                  40
