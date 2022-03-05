@@ -1,9 +1,11 @@
 export QT_QPA_PLATFORMTHEME="qt5ct"
 
+export PATH="$HOME/.local/bin:$PATH"
+
 # Application Defaults
 export EDITOR=/usr/bin/nvim
 export BROWSER="brave"
-export TERMINAL="alacritty"
+export TERMINAL="st"
 
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
