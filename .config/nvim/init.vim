@@ -2,7 +2,7 @@ set nocompatible
 filetype off
 
 " -------------------------------- Plugins ----------------------------------- "
-set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.config/nvim/VundleVim
 call vundle#begin()
 call vundle#rc("~/.config/nvim")
 
@@ -43,6 +43,7 @@ set wildmenu
 set number
 set relativenumber
 set textwidth=80
+set formatoptions-=t
 set cc=+0,+40
 
 " Rows
