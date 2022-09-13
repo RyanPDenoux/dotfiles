@@ -20,6 +20,8 @@ Plugin 'tmsvg/pear-tree'
 Plugin 'chrisbra/csv.vim'
 Plugin 'guns/vim-sexp'
 Plugin 'luochen1990/rainbow'
+Plugin 'lambdalisue/suda.vim'
+Plugin 'kg8m/vim-simple-align'
 
 " tpope utilities
 Plugin 'tpope/vim-fugitive'
@@ -55,8 +57,8 @@ set scrolloff=4
 syntax on
 colorscheme solarized
 autocmd Colorscheme * highlight! link SignColumn LineNr
+highlight Normal ctermbg=None
 let g:solarized_termtrans=1
-call togglebg#map("<F5>")
 
 " Spell check - use `set spell` in buffer to check
 set spelllang=en,de
@@ -96,8 +98,8 @@ map <leader>cp :!opout <c-r>%<CR><CR>
 autocmd VimLeave *.tex !texclear %
 
 " dwmblocks
-autocmd BufWritePost ~/.local/suckless/dwmblocks/config.h
-  \ !cd ~/.local/suckless/dwmblocks;
+autocmd BufWritePost ~/.local/sources/dwmblocks/config.h
+  \ !cd ~/.local/sources/dwmblocks;
   \ sudo make install && { killall -q dwmblocks; setsid -f dwmblocks }
 
 " Diffs
