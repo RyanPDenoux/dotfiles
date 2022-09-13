@@ -7,6 +7,8 @@ alias J='journalctl'
 alias s='systemctl --user'
 alias j='journalctl --user'
 
+alias emacs='emacsclient -nc'
+
 alias g='git'
 alias gst='git status'
 alias ga='git add'
