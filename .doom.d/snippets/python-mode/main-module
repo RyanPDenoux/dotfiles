@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: main-module
+# uuid:
+# key: _main
+# condition: t
+# --
+
+def main():
+    """${1:Docstring}"""
+    $0
+
+
+if __name__ == '__main__':
+    main()

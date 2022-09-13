@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: dwmblock
+# uuid:
+# key: BLOCK
+# condition: t
+# --
+BLOCK(${1:command}, ${2:interval}, ${3:signal}),$0

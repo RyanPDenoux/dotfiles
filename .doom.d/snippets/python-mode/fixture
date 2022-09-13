@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: fixture
+# uuid:
+# key: <fixture
+# expand-env: ((yas-indent-line 'fixed))
+# condition: t
+# --
+@pytest.fixture(scope='${1:function}')
+def ${2:fixture}():
+    return $0

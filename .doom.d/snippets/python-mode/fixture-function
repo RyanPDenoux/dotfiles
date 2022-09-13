@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: fixture-function
+# uuid:
+# key: <fixture-function
+# expand-env: ((yas-indent-line 'fixed))
+# condition: t
+# --
+
+@pytest.fixture(scope="${1:function}")
+def ${2:fixture}_test_factory():
+    def _$2():
+        $0
+
+    return $2
