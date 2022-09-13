@@ -1,4 +1,7 @@
 !! Constants
+#define  HIGH_DPI 216
+#define  NORM_DPI 108
+
 ! Solarized Colors
 #define  YELLOW   #b58900
 #define  ORANGE   #cb4b16
@@ -17,8 +20,11 @@
 #define  BASE2    #eee8d5
 #define  BASE3    #fdf6e3
 
+! Xcursors
+Xcursor.size:               32
+
 ! Xft
-Xft.dpi:                    96
+Xft.dpi:                    NORM_DPI
 Xft.autohint:               0
 Xft.lcdfilter:              lcddefault
 Xft.hintstyle:              hintslight
@@ -40,8 +46,8 @@ dmenu.background:           BASE03
 dmenu.foreground:           BASE0
 
 ! st
-st.alpha:                   0.90
-!st.font:                    mono:size=12
+st.alpha:                   0.75
+st.font:                    mono:size=12
 st.background:              BASE03
 st.foreground:              BASE0
 st.fading:                  40
