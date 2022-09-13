@@ -6,7 +6,8 @@ https://greenwald.substack.com/feed Substack politics
 https://naturalselections.substack.com/feed Substack science politics
 https://jessesingal.substack.com/feed Substack politics
 https://bariweiss.substack.com/feed Substack politics
-https://vinayprasadmdmph.substack.com/feed Substack science
+https://vinayprasadmdmph.substack.com/feed Substack medicine
+https://sensiblemed.substack.com/feed Substack medicine
 https://relevantdata.substack.com/feed Substack data
 https://meghanmurphy.substack.com/feed Substack politics
 
@@ -27,17 +28,22 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCaiL2GDNpLYH6Wokkk1VNcg You
 https://www.youtube.com/feeds/videos.xml?channel_id=UCVhQ2NnY5Rskt6UjCUkJ_DA YouTube coding python
 https://www.youtube.com/feeds/videos.xml?channel_id=UChWv6Pn_zP0rI6lgGt3MyfA YouTube tools
 https://www.youtube.com/feeds/videos.xml?channel_id=UCy0tKL1T7wFoYcxCe0xjN6Q YouTube tech
+https://invidious.tiekoetter.com/feed/channel/UCWqr2tH3dPshNhPjV5h1xRw YouTube games
+https://invidious.tiekoetter.com/feed/channel/UCrIttXi0WgLXHI1poCk0D6g YouTube games
 
 "--- Twitter ---"
-https://nitter.net/VPrasadMDMPH/rss Twitter medicine
-https://nitter.net/HardcoreHistory/rss Twitter history politics
-https://nitter.net/dccommonsense/rss Twitter politics
+https://nitter.pussthecat.org/VPrasadMDMPH/rss Twitter medicine
+https://nitter.pussthecat.org/HardcoreHistory/rss Twitter history politics
+https://nitter.pussthecat.org/dccommonsense/rss Twitter politics
 
 "--- Reports ---"
-https://rss.dw.com/atom/rss-en-all Reoprts news
+https://rss.dw.com/atom/rss-en-top Reoprts news
+https://rss.dw.com/atom/rss-en-ger Reoprts news
+https://rss.dw.com/atom/rss-en-bus Reoprts news
 https://news.antiwar.com/feed/ Reports news
 
 "--- Sources ---"
 https://gitlab.freedesktop.org/xorg/lib/libxft/-/commits/master?format=atom Sources linux
 https://github.com/python-poetry/poetry/commits/master.atom Sources python
 https://suckless.org/atom.xml Sources
+https://archlinux.org/feeds/news/ Sources arch linux

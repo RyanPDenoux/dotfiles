@@ -33,12 +33,12 @@ include /usr/share/doc/newsboat/contrib/colorschemes/solarized-dark
 
 download-full-page yes
 ignore-mode "display"
-ignore-article "https://nitter.net/VPrasadMDMPH/rss" "author !~ \"@VPrasadMDMPH\""
-ignore-article "https://nitter.net/HardcoreHistory/rss" "author !~ \"@HardcordHistory\""
+ignore-article "https://nitter.pussthecat.org/VPrasadMDMPH/rss" "author !~ \"@VPrasadMDMPH\""
+ignore-article "https://nitter.pussthecat.org/HardcoreHistory/rss" "author !~ \"@HardcordHistory\""
 
 browser linkhandler
 macro , open-in-browser
-macro t set browser "qndl" ; open-in-browser ; set browser linkhandler
+macro t set browser "qndl" ; open-in-browser ; set browser linkhandler ; toggle-article-read
 macro a set browser "tsp youtube-dl --add-metadata -xic -f bestaudio/best" ; open-in-browser ; set browser linkhandler
 macro v set browser "setsid -f mpv --script-opts=ytdl_hook-ytdl_path=yt-dlp" ; open-in-browser ; set browser linkhandler
 macro w set browser "lynx" ; open-in-browser ; set browser linkhandler
