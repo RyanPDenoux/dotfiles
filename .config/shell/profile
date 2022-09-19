@@ -10,7 +10,7 @@ export BROWSER="brave"
 export TERMINAL="st"
 
 # Task Spooler
-export TS_SLOTS=4
+export TS_SLOTS=8
 
 # Shells
 export INPUTRC="${XDG_CONFIG_HOME:-$HOME/.config}/shell/inputrc"
@@ -28,19 +28,13 @@ export XDG_CACHE_HOME="$HOME/.cache"
 
 # X11
 export XINITRC="${XDG_CONFIG_HOME:-$HOME/.config}/X11/xinitrc"
-#export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority" # This line will break some DMs.
 
 # Applications
-#export ALSA_CONFIG_PATH="$XDG_CONFIG_HOME/alsa/asoundrc"
 export ANDROID_SDK_HOME="${XDG_CONFIG_HOME:-$HOME/.config}/android"
 export ANSIBLE_CONFIG="${XDG_CONFIG_HOME:-$HOME/.config}/ansible/ansible.cfg"
 export CARGO_HOME="${XDG_DATA_HOME:-$HOME/.local/share}/cargo"
 export ELECTRUMDIR="${XDG_DATA_HOME:-$HOME/.local/share}/electrum"
-#export GNUPGHOME="${XDG_DATA_HOME:-$HOME/.local/share}/gnupg"
 export GOPATH="${XDG_DATA_HOME:-$HOME/.local/share}/go"
-export GTK2_RC_FILES="${XDG_CONFIG_HOME:-$HOME/.config}/gtk-2.0/gtkrc-2.0"
-export GTK3_RC_FILES="${XDG_CONFIG_HOME:-$HOME/.config}/gtk-3.0/gtkrc-3.0"
-#export KODI_DATA="${XDG_DATA_HOME:-$HOME/.local/share}/kodi"
 export MBSYNCRC="${XDG_CONFIG_HOME:-$HOME/.config}/mbsync/config"
 export NOTMUCH_CONFIG="${XDG_CONFIG_HOME:-$HOME/.config}/notmuch-config"
 export PASSWORD_STORE_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/password-store"
