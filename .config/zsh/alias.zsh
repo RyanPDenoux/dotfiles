@@ -2,10 +2,14 @@ alias ll='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
 
+# Captial letters imply root/system access
 alias S='systemctl'
 alias J='journalctl'
 alias s='systemctl --user'
 alias j='journalctl --user'
+alias v='nvim'
+alias V='doas nvim'
+alias e='emacsclient'
 
 alias emacs='emacsclient -nc'
 
