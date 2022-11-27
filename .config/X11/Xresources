@@ -3,22 +3,74 @@
 #define  NORM_DPI 108
 
 ! Solarized Colors
-#define  YELLOW   #b58900
-#define  ORANGE   #cb4b16
-#define  RED      #dc322f
-#define  MAGENTA  #d33682
-#define  VIOLET   #6c71c4
-#define  BLUE     #268bd2
-#define  CYAN     #2aa198
-#define  GREEN    #859900
-#define  BASE03   #002b36
-#define  BASE02   #073642
-#define  BASE01   #586e75
-#define  BASE00   #657b83
-#define  BASE0    #839496
-#define  BASE1    #93a1a1
-#define  BASE2    #eee8d5
-#define  BASE3    #fdf6e3
+#define  YELLOW   #af8700
+#define  ORANGE   #d75f00
+#define  RED      #d70000
+#define  MAGENTA  #af005f
+#define  VIOLET   #5f5faf
+#define  BLUE     #0087ff
+#define  CYAN     #00afaf
+#define  GREEN    #5f8700
+#define  BASE03   #1c1c1c
+#define  BASE02   #262626
+#define  BASE01   #585858
+#define  BASE00   #626262
+#define  BASE0    #808080
+#define  BASE1    #8a8a8a
+#define  BASE2    #e4e4e4
+#define  BASE3    #ffffd7
+
+! Solarized Dark
+*.color0:                  BASE02
+*.color1:                  RED
+*.color2:                  GREEN
+*.color3:                  YELLOW
+*.color4:                  BLUE
+*.color5:                  MAGENTA
+*.color6:                  CYAN
+*.color7:                  BASE2
+*.color9:                  ORANGE
+*.color8:                  BASE03
+*.color10:                 BASE01
+*.color11:                 BASE00
+*.color12:                 BASE0
+*.color13:                 VIOLET
+*.color14:                 BASE1
+*.color15:                 BASE3
+
+! Gruvbox
+! hard contrast: *background: #1d2021
+*background: #282828
+! soft contrast: *background: #32302f
+*foreground: #ebdbb2
+! Black + DarkGrey
+*color0:  #282828
+*color8:  #928374
+! DarkRed + Red
+*color1:  #cc241d
+*color9:  #fb4934
+! DarkGreen + Green
+*color2:  #98971a
+*color10: #b8bb26
+! DarkYellow + Yellow
+*color3:  #d79921
+*color11: #fabd2f
+! DarkBlue + Blue
+*color4:  #458588
+*color12: #83a598
+! DarkMagenta + Magenta
+*color5:  #b16286
+*color13: #d3869b
+! DarkCyan + Cyan
+*color6:  #689d6a
+*color14: #8ec07c
+! LightGrey + White
+*color7:  #a89984
+*color15: #ebdbb2
+
+! General
+*.font: mono:size=12
+*.dpi: NORM_DPI
 
 ! Xcursors
 Xcursor.size:               32
@@ -33,41 +85,27 @@ Xft.antialias:              1
 Xft.rgba:                   rgb
 
 ! dwm
-dwm.normbgcolor:            BASE03
-dwm.normbordercolor:        BASE02
-dwm.normfgcolor:            BASE1
-dwm.selbgcolor:             BLUE
-dwm.selbordercolor:         BLUE
-dwm.selfgcolor:             BASE2
+! dwm.normbgcolor:            BASE03
+! dwm.normbordercolor:        BASE02
+! dwm.normfgcolor:            BASE1
+! dwm.selbgcolor:             BLUE
+! dwm.selbordercolor:         BLUE
+! dwm.selfgcolor:             BASE2
+dwm.dmenufont:  mono:size=12
+dwm.resizehints:  0
 
 ! dmenu
-!dmenu.font:                 monospace
-dmenu.background:           BASE03
-dmenu.foreground:           BASE0
+!dmenu.background:           BASE03
+!dmenu.foreground:           BASE0
+dmenu.selbackground: #458588
+dmenu.selforeground: #282828
 
 ! st
 st.alpha:                   0.75
-st.font:                    mono:size=12
-st.background:              BASE03
-st.foreground:              BASE0
+!st.background:              BASE03
+!st.foreground:              BASE0
 st.fading:                  40
 st.fadeColor:               BASE03
 st.cursorColor:             BASE1
 st.pointerColorBackground:  BASE01
 st.pointerColorForeground:  BASE1
-st.color0:                  BASE02
-st.color1:                  RED
-st.color2:                  GREEN
-st.color3:                  YELLOW
-st.color4:                  BLUE
-st.color5:                  MAGENTA
-st.color6:                  CYAN
-st.color7:                  BASE2
-st.color9:                  ORANGE
-st.color8:                  BASE03
-st.color10:                 BASE01
-st.color11:                 BASE00
-st.color12:                 BASE0
-st.color13:                 VIOLET
-st.color14:                 BASE1
-st.color15:                 BASE3
