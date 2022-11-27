@@ -3,7 +3,7 @@
 # Check which window manager and execute utilities
 [ $DESKTOP_SESSION == "dwm" ] && {
 	xrandr --output DP-0 --mode 3440x1440 --rate 143.92
-	picom --experimental-backends &
+	picom &
 	dunst &
 	unclutter --ignore-buttons 1,2,3,4,5 &
 	# dwmblocks 2>&1 > /dev/null &
