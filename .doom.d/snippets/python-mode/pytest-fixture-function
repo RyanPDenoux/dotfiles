@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: pytest-fixture-function
+# uuid:
+# key: <utff
+# condition: t
+# --
+@pytest.fixture(scope="${1:function$$(yas-choose-value '(\"function\" \"class\" \"module\" \"package\" \"session\"))}")
+def ${2:fixture-name}_test_factory(${3:fixtures}):
+    def _$2(${4:params}):
+        $0
+
+    return _$2

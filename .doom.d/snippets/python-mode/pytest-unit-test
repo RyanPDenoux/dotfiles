@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: pytest-unit-test
+# uuid:
+# key: <ut
+# condition: t
+# --
+def test_${1:object}_${2:behavior}_${3:expectation}(${4:fixtures}):
+    $0
