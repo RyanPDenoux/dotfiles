@@ -7,3 +7,4 @@
 
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
+. "/home/ryan/.local/share/cargo/env"
